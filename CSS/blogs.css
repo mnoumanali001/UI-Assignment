@@ -40,6 +40,9 @@
     line-height: 24px; /* 150% */
     letter-spacing: -0.1px;
 }
+.bc-lower img{
+    border-radius: 10px;
+}
 .bcl-upper{
     max-width: 100%;
 }
