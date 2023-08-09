@@ -10,6 +10,7 @@ p {
 }
 .img-fit{
     object-fit: cover;
+    object-position: center;
 }
 input:focus{
     outline: none;
