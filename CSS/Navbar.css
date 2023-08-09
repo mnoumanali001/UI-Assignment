@@ -1,0 +1,107 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.img-fit{
+    object-fit: cover;
+}
+input:focus{
+    outline: none;
+}
+nav {
+    color: black;
+}
+
+header{
+    background-color: #F8F9FB;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 1.1em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+header > div, nav , .resources{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left{
+    width: 40%;
+}
+nav{
+    width: 70%;
+}
+.header-right{
+    width: 191px;
+    font-size: 0.8rem;
+}
+.singup-btn{
+    color: var(--primary-600, #437EF7);
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.singup-btn:hover{
+    color: var(--primary-600, #437ff7d4);
+}
+.login-btn{
+    background: var(--primary-600, #437EF7);
+    padding: 0.8em 1.8em;
+    color: white;
+    border-radius: 6px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background: var(--primary-600, #437ff7ce);
+}
+nav , .header-right{
+    display: none;
+}
+nav > p{
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+nav > p:hover{
+    color: rgba(20, 18, 18, 0.637);
+
+}
+.menu:hover{
+    opacity: 0.8;
+}
+@media screen and (min-width : 1100px) {
+    header{
+        box-sizing: border-box;
+        padding: 1.1em 6em;
+        height: 9%;
+    }
+    nav , .header-right, .resources{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+    }
+    .header-left{
+        width: 693px;
+    }
+    nav{
+        width: 465px;
+    }
+    .header-right{
+        font-size: 1rem;
+    }
+    .menu{
+        display: none;
+    }
+
+}  
