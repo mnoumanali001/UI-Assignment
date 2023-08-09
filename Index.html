@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/Navbar.css">
+    <link rel="stylesheet" href="./CSS/hero-section.css">
+    <link rel="stylesheet" href="./CSS/features.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/blogs.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/client.css">
+    <link rel="stylesheet" href="./CSS/testimonial.css">
+    <link rel="stylesheet" href="./CSS/menuBar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar-hidden" id="full-menu">
+        <div class="hidden-upper">
+            <img onclick="hideMenu()" src="./Img/cancel.svg" alt="">
+        </div>
+        <div class="hidden-lower">
+            <p>Home</p>
+            <p>Our Products</p>
+            <p class="resources">Resources</p>
+            <p>Contacts</p>
+        </div>
+    </div>
+    <div class="hero-outer-container">
+        <!-- Header -->
+        <header>
+            <div class="header-left">
+                <img src="./Img/cLogo.svg" alt="">
+                <nav>
+                    <p>Home</p>
+                    <p>Our Products</p>
+                    <p class="resources">Resources <span style="padding-left: 5px; padding-top: 5px;"><img src="./Img/down.svg" alt=""></span></p>
+                    <p>Contacts</p>
+                </nav>
+            </div>
+
+            <div class="header-right">
+                <p class="singup-btn">Sing Up</p>
+                <p class="login-btn">Login</p>
+            </div>
+            <img  class="menu" onclick="showMenu()" src="./Img/big.svg" alt="">
+        </header>
+
+        <!-- Hero Section -->
+
+        <div class="hero-container">
+
+            <!-- Hero Left -->
+            <div class="hero-left">
+                <p class="main-text">Your Supercharged Design Workflow.</p>
+
+                <div class="hero-left-points">
+                    <div>
+                        <img src="Img/check.svg" alt="">
+                        <p>Enterprise-grade security</p>
+                    </div>  
+                    <div>
+                        <img src="Img/check.svg" alt="">
+                        <p>99.9% guaranteed uptime SLA</p>
+                    </div>
+                    <div>
+                        <img src="Img/check.svg" alt="">
+                        <p>Designated customer success team</p>
+                    </div>
+                    
+                </div>
+
+                <div class="hero-left-input">
+                    <div class="hero-input-container">
+                        <input type="text" placeholder="Enter your Email">
+                        <button>Submit</button>
+                    </div>
+                    
+                    <p>Already have an account?</p>
+                </div>
+            </div>
+
+            <!-- Hero Right -->
+            <div class="hero-right">
+                <div class="hr-upper">
+                    <img class="hr-icon1" src="Img/36.svg" alt="">
+                </div>
+                
+                <div class="hero-about">
+                    <div class="hr-row1">
+                        <div>
+                            <div class="about-i1">
+                                <img class="about-i" src="./Img/Icon.svg" alt="">
+                            </div>
+                            <p class="about-price">$2490</p>
+                            <p class="about-about">New courses<br> Created</p>
+                        </div>
+                        <div>
+                            <div  class="about-i2">
+                                <img class="about-icon" src="./Img/Icon(1).svg" alt="">
+                            </div>
+                            <p class="about-price">7,500</p>
+                            <p class="about-about">Happy<br> Customers</p>
+                        </div>
+                    </div>
+                    <img class="hr-circle" src='./Img/Logo.svg' alt="">
+                    <div class="hr-row2">
+                        <div>
+                            <div  class="about-i3">
+                                <img class="about-icon" src="./Img/Icon(2).svg" alt="">
+                            </div>
+                            <p class="about-price">12 Years</p>
+                            <p class="about-about">Partners throughout<br> the world</p>
+                        </div>
+                        <div>
+                            <div  class="about-i4">
+                                <img class="about-i" src="./Img/Icon(3).svg" alt="">
+                            </div>
+                            <p class="about-price">Unlimited</p>
+                            <p class="about-about">Years of<br> experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr-lower">
+                    <img class="hr-icon2" src="./Img/83.svg" alt="">
+                </div>
+            
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features-container">
+             <div>
+                <div class="feat-icon"><img src="./Img/feat3.svg" alt=""></div>
+                <p class="fc-text">No matter what kind of home you have to share, you can increase.</p>
+            </div>
+            <div>
+                <div class="feat-icon"><img src="./Img/feat2.svg" alt=""></div>
+                <p class="fc-text">No matter what kind of home you have to share, you can increase.</p>
+            </div>
+            <div>
+                <div class="feat-icon"><img src="./Img/feat1.svg" alt=""></div>
+                <p class="fc-text">No matter what kind of home you have to share, you can increase.</p>
+            </div> 
+        </div>
+    </div>
+
+    <div class="product-features-container">
+        <div class="pfc-upper">
+            <p class="heading">Redefining Product Features</p>
+            <p class="pfc-upper-about">Keeping your eye on the ball while performing a deep dive on the start-up mentality
+                to  derive convergence on cross-platform integration.</p>
+        </div>
+
+        <div class="pfc-lower-outer">
+            <!-- 1st  -->
+            <div class="pfc-lower">
+                <div class="pfc-lower-left">
+                    <p class="pfcll-head">Demonstrate branding <br> consequently think outside</p>
+                    <p class="pfcll-p">Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque
+                        a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.
+                    </p>
+                    <div class="pfc-lower-points">
+                        <div>
+                            <img class="hollow-check" src="./Img/trans-check.svg" alt="">
+                            <p>Enterprise-grade security</p>
+                        </div>  
+                        <div>
+                            <img class="hollow-check" src="./Img/trans-check.svg" alt="">
+                            <p>99.9% guaranteed uptime SLA</p>
+                        </div>
+                        <div>
+                            <img class="hollow-check" src="./Img/trans-check.svg" alt="">
+                            <p>Designated customer success team</p>
+                        </div>    
+                    </div>
+                    
+                    <button>Show <span><img src="./Img/right.svg" alt=""></span></button>
+                </div>
+                <div class="pfc-lower-right">
+                    <img class="img-fit" src="./Img/Photo.png" alt="">
+                </div>
+            </div>
+            
+            <!-- 2nd  -->
+            <div class="pfc-lower">
+                <div class="pfc-lower-left pfcl-order">
+                    <p class="pfcll-head">Demonstrate branding consequently <br> think outside</p>
+                    <p class="pfcll-p">Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque
+                        a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.
+                    </p>
+                    <div class="pfc-lower-points">
+                        <div>
+                            <img class="hollow-check" src="./Img/trans-check.svg" alt="">
+                            <p>Enterprise-grade security</p>
+                        </div>  
+                        <div>
+                            <img class="hollow-check" src="./Img/trans-check.svg" alt="">
+                            <p>99.9% guaranteed uptime SLA</p>
+                        </div>
+                        <div>
+                            <img class="hollow-check" src="./Img/trans-check.svg" alt="">
+                            <p>Designated customer success team</p>
+                        </div>    
+                    </div>
+                    
+                    <button>Show <span><img src="./Img/right.svg" alt=""></span></button>
+                </div>
+                <div class="pfc-lower-right pfcr-order">
+                    <img class="img-fit" src="./Img/Photo1.png" alt="">
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonial-container">
+        <div class="test-upper">
+            <p class="test-heading">What Our Customers Say</p>
+            <p class="test-text">Organically grow the holistic world view of disruptive innovation via
+                workplace diversity and empowerment. Bring to the table win-win strategies to ensure domination.</p>
+        </div>
+        <div class="test-lower">
+
+            <!-- Item-1 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar.png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Dave Jones</p>
+                            <p class="customer-position">CEO</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/insta.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    LookScout has got everything I need. Man, this thing is getting better as I learn more about it.
+                     It's what I've been looking for.
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+
+            <!-- Item-2 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar (1).png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Andrew Drue</p>
+                            <p class="customer-position">UI/UX Designer</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/gg.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    Best. Product. Ever! LookScout was the best investment I ever made.
+                     I love your system. It's what I've been looking for.
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+
+            <!-- Item-3 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar (2).png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Olivia Manson</p>
+                            <p class="customer-position">3D Artist</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/social.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    Great job, I will definitely be ordering again! LookScout
+                     is worth much more than I paid. It's the perfect solution.
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+
+            <!-- Item-4 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar (3).png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Morgan John</p>
+                            <p class="customer-position">Lead Designer</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/link.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    It's really wonderful. LookScout was the best investment I ever made.
+                     I can't say enough about it. I love LookScout!
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+
+            <!-- Item-5 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar (6).png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Jeffery Walker</p>
+                            <p class="customer-position">CEO</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/redit.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    Thank you for making it painless, pleasant and most of all
+                     hassle free! Needless to say we are extremely satisfied.
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+
+            <!-- Item-6 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar (5).png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Brian Foard</p>
+                            <p class="customer-position">HR</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/tiktok.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    It fits our needs perfectly. This project. Definitely worth the investment  and is behind its product 100%.
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+
+            <!-- Item-7 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar (4).png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Richard Lopez</p>
+                            <p class="customer-position">Manager</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/telegram.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    I could probably go into sales for you. The service was excellent.
+                    The service and the product was excellent.
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+
+            <!-- Item-8 -->
+            <div class="testimonial-item">
+                <div class="test-item-upper">
+                    <div class="tiu-left">
+                        <img src="./Img/Avatar (4).png" alt="cutomer">
+                        <div>
+                            <p class="customer-name">Dunhan Smith</p>
+                            <p class="customer-position">Lead Designer</p>
+                        </div>
+                    </div>                  
+                    <img src="./Img/medium.svg" alt="icon">
+                </div>
+                <div class="test-item-content">
+                    We've used LookScout for the last five years. The very best. LookScout did what you said it does. It's all good.
+                </div>
+                <div class="test-item-btn">Read More</div>
+            </div>
+        </div>
+
+        <div class="testimonial-btn">
+            <p>Show more</p>
+        </div>
+    </div>
+
+    <!-- Blogs -->
+    <div class="blog-container">
+        <div class="bc-upper">
+            <p class="bc-upper-heading">
+                Latest Blog Posts
+            </p>
+            <p class="bc-upper-text">
+                Completely synergize resource taxing relationships via premier niche markets.
+                Professionally  cultivate one-to-one customer service with robust ideas.
+            </p>
+        </div>
+        <div class="bc-lower">
+            <div class="bc-lower-left">
+                <div class="bcl-upper">
+                    <img class="img-fit" src="./Img/room4.png" alt="">
+                </div>
+                <div class="bcl-lower">
+                    <p class="bcll-heading">
+                        Reach your users with new tools. <span class="bcll-heading-hidden">Reach your users with new tools. Reach your users with new tools.</span>
+                    </p>
+                    <p class="bcll-text">
+                        Efficiently unleash cross-media information without cross-media value. Quickly maximize.Efficiently 
+                        unleash cross-media information without cross-media value. Quickly maximize.Efficiently unleash cross-media.
+                    </p>
+                    <p class="blog-date margin-date">25 Apr 2022 </p>
+                </div>
+            </div>
+            <div class="bc-lower-right">
+                <div>
+                    <div class="bcl-right-img">
+                        <img class="img-fit" src="./Img/room3.png" alt="">
+                    </div>
+                    <div class="bcl-right-content">
+                        <p class="bcl-right-bold">Faster ways to reach your customers.</p>
+                        <p class="bcll-text-hidden bcll-text">
+                            Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time.
+                            Dramatically clicks-and-mortar solutions without functional solutions you need.
+                        </p>
+                        <p class="hidden-text">
+                            Efficiently unleash cross-media information without cross-media value. Quickly maximize.
+                        </p>
+                        <p class="blog-date">25 Apr 2022 - Blog Theme</p>
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <div class="bcl-right-img">
+                        <img class="img-fit" src="./Img/room2.png" alt="">
+                    </div>
+                    <div class="bcl-right-content">
+                        <p class="bcl-right-bold">Faster ways to reach your customers.</p>
+                        <p class="bcll-text-hidden bcll-text">Completely synergize resource taxing relationships via premier niche markets. Professionally
+                            cultivate one-to-one customer service with robust ideas. User generated content will have multiple touchpoints for offshoring.</p>
+                        <p class="hidden-text">
+                            Completely synergize resource taxing relationships via premier niche markets.
+                        </p>
+                        <p class="blog-date">25 Apr 2022 - Blog Theme</p>
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <div class="bcl-right-img">
+                        <img class="img-fit" src="./Img/room1.png" alt="">
+                    </div>
+                    <div class="bcl-right-content">
+                        <p class="bcl-right-bold">Faster ways to reach your customers.</p>
+                        <p class="bcll-text-hidden bcll-text">Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for schemas users.
+                            Podcasting operational change inside of workflows inside a framework seamless management inside of workflows.</p>
+                            <p class="hidden-text">
+                                Efficiently unleash cross-media information without cross-media value. Quickly maximize.
+                            </p>
+                        <p class="blog-date">25 Apr 2022 - Blog Theme</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Client -->
+
+    <div class="client-container">
+        <div class="client-content">
+            <p class="cc-heading">Proud to Be Used By</p>
+            <p class="cc-text">Professionally cultivate one-to-one customer service with robust ideas.
+                Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+        </div>
+        <div class="client-list">
+            <img src="./Img/verge.svg" alt="">
+            <img src="./Img/slack.svg" alt="">
+            <img src="./Img/google.svg" alt="">
+            <img src="./Img/pay.svg" alt="">
+            <img src="./Img/pin.svg" alt="">
+            <img src="./Img/mall.svg" alt="">     
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-container">
+        <p class="percentage">1% of the Industory</p>
+        <p class="welcome">Welcome to your new digital reality that will rock your world truly at all throughout.</p>
+        <div class="contact-email">
+            <input type="text" placeholder="Your e-mail">
+            <button>Submit</button>
+        </div>
+            
+        <div class="why-contact">
+            <div>
+                <img src="./Img/check.svg" alt="">
+                <p>Fully Secure</p>
+            </div>
+            <div>
+                <img src="./Img/check.svg" alt="">
+                <p> 24/7 Support</p>
+            </div>
+            <div>
+                <img src="./Img/check.svg" alt="">
+                <p> Done Deal</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-upper">
+            <div class="footer-left">
+                <img src="./Img/footer company.svg" alt="">
+            </div>
+            <div class="footer-upper-center">
+                <p>About us</p>
+                <p>Features</p>
+                <p>News</p>
+                <p>Apps</p>
+            </div>
+            <div class="footer-upper-right">
+                <img src="./Img/facebook.svg" alt="">
+                <img src="./Img/gg.svg" alt="">
+                <img src="./Img/apple.svg" alt="">
+                <img src= "./Img/insta.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-lower">
+            <p>© 2023 Lookscout. All Rights Reserved.</p>
+            <div>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+    <script src="./Index.js"></script>
+</html>
